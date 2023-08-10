@@ -58,23 +58,43 @@ main {
 .links {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
 }
 
 .apresentaçao-link {
-    background-color: aqua;
-    width: 280px;
+    border: solid aqua 2px;
+    width: 378px;
     text-align: center;
-    border-radius: 16px;
+    border-radius: 8px;
     padding: 21.5px 0px;
     text-decoration: none;
-    color: #000000;
+    color: aqua;
     font-family: 'Montserrat';
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
     line-height: 36px; /* 150% */
+    display: flex;
+    justify-content: center;
+    gap: 13px;
 }
 
 .apresentaçao-link:hover {
+    background-color: #272727;
     color: white;
+    border: solid white 2px;
+}
+
+.apresentaçao-subtitulo {
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+section img {
+    height: 32px;
+    width: 32px;
+    border: none;
 }
