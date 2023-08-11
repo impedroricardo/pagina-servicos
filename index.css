@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@100;600&display=swap');
 
 :root {
-    --cor-principal: #001C30;
+    --cor-principal: black;
     --cor-secundaria: white;
     --cor-terciaria: aqua;
 }
