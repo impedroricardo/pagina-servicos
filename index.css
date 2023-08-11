@@ -166,4 +166,8 @@ section img {
         gap: 40px;
     }
     
+    .apresentaçao-link {
+        width: 85%;
+        font-size: 1.2rem;
+    }
 }
