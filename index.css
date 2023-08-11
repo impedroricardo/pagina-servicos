@@ -5,7 +5,7 @@
 :root {
     --cor-principal: black;
     --cor-secundaria: white;
-    --cor-terciaria: aqua;
+    --cor-terciaria: #22D4FD;
 }
 
 * {
@@ -141,6 +141,10 @@ section img {
 
 .apresentaçao-imagem {
     width: 550px;
+}
+
+main p strong {
+    color: var(--cor-terciaria);
 }
 
 @media (max-width: 1000px) {
